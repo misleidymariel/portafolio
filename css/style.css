@@ -11,7 +11,11 @@ body{
     margin: 0px 20px;
 }
 #fotoPerfil img{
-    border-radius: 15px;
+   
+    padding-top: 50px;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
 }
 
 #fotoPerfil{
@@ -24,7 +28,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 #navegador{
@@ -45,8 +49,8 @@ body{
 }
 
 .name-title{
-    height: 100px;
-    margin: 100px;
+    height: 80px;
+    margin: 80px;
     width: auto;
     font-size: 150px;
     text-align: center;
@@ -140,7 +144,7 @@ body{
     flex-direction: row;
     justify-content:center;
     margin: 20px 20px;
-    text-decoration: none;
+    
    
 }
 
@@ -156,6 +160,7 @@ body{
 
 .items a{
     text-decoration: none;
+    color: black;
 }
 
 .items-contacto :hover{
