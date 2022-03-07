@@ -2,25 +2,29 @@ body{
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
-    background:#F0FFFF;
+    background:#f6f6f6;
 }
 
 #contenedorportada{
     display: flex;
-    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 0px 20px;
+    padding-top: 80px;
+    margin-bottom: 20px;
 }
 #fotoPerfil img{
-   
-    padding-top: 50px;
-    border-radius: 50%;
-    width: 600px;
-    height: 600px;
+    border-radius: 3%;
+ 
 }
-
+#titulo{
+    width: 500px;
+    height: 500px;
+    
+}    
 #fotoPerfil{
     width: auto;
-    margin: 20px 20px; 
+    text-align: center;
 }
 
 #navegador  ul  {
@@ -33,7 +37,7 @@ body{
 
 #navegador{
     width: 100%;
-    background-color: white;
+    background-color: #dbdad9af;
     position: fixed;
     top: 0px;
 }
@@ -45,15 +49,15 @@ body{
 }
 
 #navegador li a:hover{
-    background-color:#F0F8FF;
+    background-color:#f6f6f6;
 }
 
 .name-title{
-    height: 80px;
-    margin: 80px;
-    width: auto;
-    font-size: 150px;
+    
+    font-size: 40px;
+    font-family: sans-serif;
     text-align: center;
+   
 }
 /*section acerca */
 
@@ -63,10 +67,14 @@ body{
 }
 #button{
     padding: 15px;
+    font-weight: bold;
     background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+    border: 0.5px solid rgb(0, 0, 0);
+
 }
 #button:hover {
-    background-color:#F0F8FF;
+    background-color:#dbdad9af;
 }
 /*section educacion*/
 
