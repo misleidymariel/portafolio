@@ -37,7 +37,7 @@ body{
 
 #navegador{
     width: 100%;
-    background-color: #dbdad9af;
+    background-color: #dbdad9;
     position: fixed;
     top: 0px;
 }
@@ -53,7 +53,6 @@ body{
 }
 
 .name-title{
-    
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
@@ -65,14 +64,17 @@ body{
     text-align: left;
     margin: 20px 20px;
 }
-#button{
+#button {
+    color: rgb(0, 0, 0);
     padding: 15px;
     font-weight: bold;
     background-color: rgb(255, 254, 254);
     border-radius: 10px;
     border: 0.5px solid rgb(0, 0, 0);
-
+    text-decoration: none;
+    
 }
+
 #button:hover {
     background-color:#dbdad9af;
 }
