@@ -8,6 +8,9 @@
     <title>Misleidy Ramirez</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/f64101e413.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,8 +29,8 @@
 
     <section id="contenedorportada">
         <div class="titulo">
-            <p class="name-title">Hello!! soy, <br>  
-                <strong>< MisleidyRamirez /> </strong></p>
+            <h2 class="name-title">Hello!! soy, <br>  
+                <strong> < MisleidyRamirez /> </strong></h2>
             <a href="Pdf/Misleidy_Ramirez-CV.pdf" id="button" target="_blank" download >Descargar CV</a>
         </div>
 
@@ -35,13 +38,9 @@
             <img src="./img/IMG_0679.jpeg" alt="mi fotoperfil" width="590px"  height="450px">
         </div>
     </section>
-    <section id="container-acerca">
-        <article class="acerca-content">
-    
-        </article>
-    </section>
+
     <section id="section-portafolio">
-        <h3>Mi trabajo</h3>
+        <h2>Mi trabajo</h2>
         
         <div id="contenedor-portafolio">
             <div class="portafolio-item-box">
@@ -127,6 +126,57 @@
         </div>
     </section>
 
+    <section class="formulario">
+        <div class="content">
+            <h1 class="brand"> Contactame <span>US</span> </h1>
+
+            <div class="content-wrapper">
+                <div class="content-form">
+                    <h4>Escribeme</h4>
+                    <form action="">
+                        <p>
+                            <label>fullNme</label>
+                            <input type="text" name="fullName">
+                        </p>
+                        <p>
+                            <label>Email Adress</label>
+                            <input type="text" name="fullName">
+                        </p>
+                        <p>
+                            <label>Phonr</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input type="text" name="asunto">
+                        </p>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea name="mensaje" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+
+                </div>
+                <div class="content-info">
+                    <h4>mas informacion</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>Buenos Aires</li>  
+                        <li><i class="fas fa-phone"></i>123 456 45678 </li>  
+                        <li><i class="fas fa-envelope-open-text"></i>Misleidy520@gmail.com</li>  
+                    </ul>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquam harum, 
+                    unde quas totam voluptatum, ad explicabo sit, 
+                    sed ipsum sequi similique recusandae dolorum. Veniam laborum doloremque a odio sed?</p>
+                    <p> Company.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <section class="footer ">
@@ -136,6 +186,7 @@
                 <a href="#"><i class="far fa-envelope"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-github-alt"></i></a>
             </div>
 
             <ul class="list">
@@ -143,9 +194,7 @@
                 <li><a href="#container-acerca">Conocimientos</a></li>
                 <li><a href="#section-portafolio">Proyectos</a></li>
                 <li><a href="#section-contacto">Contacto</a></li>
-            </ul>
-
-           
+            </ul>  
         </ul>
 
         <p class="copyright"> Misleidy Ramirez &copy; 2022</p>
@@ -155,7 +204,6 @@
         
     </footer>
 
-   
 </body>
 
 </html>

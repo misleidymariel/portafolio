@@ -60,6 +60,9 @@ body{
     text-align: center;
    
 }
+.name-title strong{
+    color: brown;
+}
 
 /*section acerca */
 
@@ -156,7 +159,7 @@ body{
  
 }
  /* footer */
- 
+
 .footer{
     padding: 40px 0;
     background-color: bisque;
