@@ -12,7 +12,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     margin: 0px 10px;
-    padding: 120px;
+    padding:120px;
    
 
 }
@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     display: 80px;
-    padding: 30px 0 0 80px;
+
     /*line-height: 60px;*/
 }    
 #fotoPerfil{
@@ -52,7 +52,7 @@ body{
     background-color: #dbdad9;
     position: fixed;
     top: 0px;
-    height: 70px;
+    height: 75px;
 }
 
 #navegador  ul li a {
@@ -99,15 +99,8 @@ body{
 
 /* section contacto*/
 
-#section-contacto{
+.proyectos{
     text-align: center;
-}
-.section-contacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-   
 }
 
 .items-contacto {

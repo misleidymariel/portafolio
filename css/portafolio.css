@@ -20,14 +20,12 @@ h4{
     padding: 0;
 }
 .grid{
-    width: 1000px;
-    height: 100%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
-    align-items: center;
-    align-content: center;
     margin: auto;
+    padding-left: 200px;
 }
 .card { 
     width: 200px;
