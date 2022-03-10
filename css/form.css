@@ -1,8 +1,9 @@
 .formulario{
     box-sizing: border-box;
-    background-color: rgb(212, 216, 210);
+    background-color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     padding: 0 1.5em;
+    padding-bottom: 40px;
     color: #fff;
 }
 
@@ -20,7 +21,7 @@
 
 }
 .brand span{
-    color: darkblue;
+    color: rgb(126, 126, 163);
 }
 .content-wrapper{
     box-shadow: 0 0 20px 0 rgb(131, 129, 129);
@@ -32,7 +33,7 @@
 }
 
 .content-form{
-    background-color: slateblue;
+    background-color: rgb(200, 196, 226);
 }
 
 .content-form form {
@@ -100,9 +101,7 @@ label {
  /* large screen */
 
 @media (min-width: 700px){
-    .formulario{
-        padding: 0 4rem;
-    }
+    
     .content-wrapper{
         display: grid;
         grid-template-columns: 2fr 1fr;

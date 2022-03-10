@@ -12,7 +12,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
     margin: 0px 10px;
-    padding: 80px;
+    padding: 120px;
+   
 
 }
 #fotoPerfil img{
@@ -26,12 +27,15 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     display: 80px;
-    padding: 30px 0 0 100px;
+    padding: 30px 0 0 80px;
     /*line-height: 60px;*/
 }    
 #fotoPerfil{
     width: auto;
+    height: 400px;
     text-align: center;
+    padding-left: 0px;
+    
 }
 
 #navegador  ul  {
@@ -39,7 +43,8 @@ body{
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    padding-right: 40px;
+    padding-right: 130px;
+    padding-top: 15px;
 }
 
 #navegador{
@@ -47,6 +52,7 @@ body{
     background-color: #dbdad9;
     position: fixed;
     top: 0px;
+    height: 70px;
 }
 
 #navegador  ul li a {
@@ -62,9 +68,7 @@ body{
 .name-title{
     font-size: 40px;
     font-family: sans-serif;
-    text-align: left;
- 
-   
+    text-align: left; 
 }
 .name-title strong{
     color: brown;
@@ -133,59 +137,4 @@ body{
     transform: scale( 1.2, 1.2);
  
 }
- /* footer */
-
-.footer{
-    padding: 40px 0;
-    background-color: bisque;
-}
-.footer .social{
-    text-align: center;
-    padding-bottom: 24px;
-    color:rgb(126, 122, 122);
-}
-
-.social a{
-    font-size: 24px;
-    color: inherit;
-    border: 1px solid black;
-    width: 40px;
-    height: 40px;
-    line-height: 38px;
-    display:inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity: 0.75;
-}
-.social a:hover{
-    opacity: 0.9;
-}
-
-.footer ul{
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    text-align: center;
-}
-.footer ul a{
-    text-decoration: none;
-    color: black;
-}
-.footer ul li{
-    display: inline-block;
-    padding: 0 15px;
-
-}
-.foote ul li a:hover{
-    opacity: 6;
-}
-.footer .copyright{
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: rgb(201, 198, 198);
-}
+ 
