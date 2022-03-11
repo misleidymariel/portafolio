@@ -23,10 +23,10 @@
 .brand span{
     color: rgb(126, 126, 163);
 }
-.content-wrapper{
-    box-shadow: 0 0 20px 0 rgb(131, 129, 129);
-
+.wrapper{
+    border-radius: 30px;
 }
+ 
 
 .content-wrapper > *{
     padding: 24px;
@@ -56,13 +56,13 @@
     padding: 10px;
     border: none;
     background: none;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(34, 32, 32);
     outline: 0;
     color: #fff;
 }
 
 .content-form form button{
-    background: #d63031;
+    background: #635b5b;
     color: black;
     border: 0;
     text-transform: uppercase;
@@ -75,7 +75,7 @@ label {
 }
 .content-form form button:hover,
 .content-form form button:focus{
-    background-color: #d37f7f;
+    background-color: #a59f9f;
     color: #fff;
     transition: background-color 1s ease-out;
 }

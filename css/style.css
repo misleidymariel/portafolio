@@ -62,7 +62,8 @@ body{
 }
 
 #navegador li a:hover{
-    background-color:#f6f6f6;
+    color:#f6f6f6;
+    transition-duration: 0.2s;
 }
 
 .name-title{
@@ -130,4 +131,21 @@ body{
     transform: scale( 1.2, 1.2);
  
 }
- 
+.quote{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(126, 119, 118);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+.quote-item {
+    width: 60%;
+    text-align: center;
+    margin: 20px 0;
+}
