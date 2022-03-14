@@ -1,6 +1,6 @@
 /*section portafolio*/
 
-#section-portafolio{
+.conocimientos{
     width: 100%;
     height: 100%;
     display: flex;
@@ -19,8 +19,9 @@ h4{
     margin: 0;
     padding: 0;
 }
+
 .grid{
-    width: 75%;
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
@@ -44,43 +45,6 @@ h4{
     font-size: 80px;
     margin-bottom: 10px;
 }
-
-.fa-html5 {
-    color: #E54D26;
-}
-.fa-html5:before {
-    content: "\f13b";
-}
-.fa-css3-alt {
-    color: #3D8FC6;
-}
-.fa-css3-alt:before {
-    content: "\f38b";
-}
-.fa-sass {
-    color: #CC6699;
-}
-.fa-sass:before {
-    content: "\f41e";
-}
-.fa-js-square {
-    color: #F0DB4F;
-}
-.fa-js-square:before {
-    content: "#f3b9";
-}    
-.fa-git-alt {
-    color: #F34F29;
-}
-.fa-git-alt:before {
-    content: "#f841";
-} 
-.fa-react:before {
-    content: "#f41b";
-}
-.fa-react {
-    color: #61DAFB;
-}
    
 .portafolio-item-box img {
     object-fit: contain;
@@ -88,4 +52,16 @@ h4{
     height: 100px;
     align-items: center;
   
+}
+
+@media screen and (max-width: 725px){
+    .grid {
+        width: 98%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+  
+    }
 }

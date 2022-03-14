@@ -1,10 +1,10 @@
 .formulario{
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-color:#f6f6f6;;
     font-family: 'Times New Roman', Times, serif;
     padding: 0 1.5em;
     padding-bottom: 40px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .content{
@@ -17,11 +17,12 @@
 }
 .brand{
     text-align: center;
-    font-size: 38PX;
+    font-size: 38px;
+    padding: 20px;
 
 }
 .brand span{
-    color: rgb(126, 126, 163);
+    color: #48daf6;
 }
 .wrapper{
     border-radius: 30px;
@@ -33,7 +34,8 @@
 }
 
 .content-form{
-    background-color: rgb(200, 196, 226);
+    background-color: rgb(255, 255, 255);
+    border: 0.1px solid black;
 }
 
 .content-form form {
@@ -58,11 +60,11 @@
     background: none;
     border-bottom: 1px solid rgb(34, 32, 32);
     outline: 0;
-    color: #fff;
+    color: rgb(252, 252, 252);
 }
 
 .content-form form button{
-    background: #635b5b;
+    background: #48daf6;
     color: black;
     border: 0;
     text-transform: uppercase;
@@ -71,16 +73,16 @@
     width: 20%;
 }
 label {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .content-form form button:hover,
 .content-form form button:focus{
-    background-color: #a59f9f;
+ 
     color: #fff;
     transition: background-color 1s ease-out;
 }
 .content-info{
-    background-color: rgb(161, 156, 156);
+    background-color: #000000dc;
 }
 
 .content-info h4,

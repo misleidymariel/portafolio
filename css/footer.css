@@ -2,18 +2,18 @@
 
 .footer{
     padding: 40px 0;
-    background-color:  #dbdad9;;
+    background-color:  #48daf6;;
 }
 .footer .social{
     text-align: center;
     padding-bottom: 24px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }
 
 .social a{
     font-size: 24px;
     color: inherit;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -25,6 +25,7 @@
 }
 .social a:hover{
     opacity: 1.0;
+    color: rgb(255, 255, 255);
 }
 
 .footer ul{
@@ -45,12 +46,19 @@
     padding: 0 15px;
 
 }
-.foote ul li a:hover{
-    opacity: 6;
+.footer ul li a:hover{
+    color:#ffffff;
+    transition-duration: 0.2s;
 }
+
 .footer .copyright{
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
     color: rgb(0, 0, 0);
+}
+@media (max-width: 725px){
+    .content-info{
+        display: none;
+    }
 }
