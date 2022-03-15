@@ -8,11 +8,10 @@
 }
 
 .content{
-    max-width: 1170px;
-    width: 70%;
+    width: 50%;
+    padding: 1.5em;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em;
 
 }
 .brand{
@@ -24,10 +23,6 @@
 .brand span{
     color: #48daf6;
 }
-.wrapper{
-    border-radius: 30px;
-}
- 
 
 .content-wrapper > *{
     padding: 24px;
@@ -102,11 +97,16 @@ label {
 }
  /* large screen */
 
-@media (min-width: 700px){
+@media screen and  (max-width: 725px){
     
     .content-wrapper{
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        
+    }
+    .content{
+        margin: 0;
+        width: 100%;
+        padding: 0;
     }
     .content-wrapper > * {
         padding: 2em;
@@ -114,9 +114,13 @@ label {
     .content-info h4,
     .content-info ul,
     .content-info p {
-        padding: 1em;
+        padding: 20px;
         text-align: left;
     }
+    .content-form form button{
+        width: 100%;
+    }
+
 }
 
 

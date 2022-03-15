@@ -31,7 +31,7 @@ body{
 }    
 .fotoPerfil{
     width: auto;
-    height: 400px;
+    height: auto;
     text-align: center;
     padding-left: 0px;
     
@@ -164,7 +164,7 @@ body{
     }
 }
 
-@media (max-width: 725px){
+@media screen and (max-width: 725px){
     header{
         display: none;
     }

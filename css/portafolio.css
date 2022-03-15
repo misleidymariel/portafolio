@@ -21,12 +21,13 @@ h4{
 }
 
 .grid{
-    width: 900px;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    flex-direction: row;
+    padding: 30px;
     margin: auto;
-    padding-left: 200px;
+   
 }
 .card { 
     width: 200px;
