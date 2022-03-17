@@ -62,4 +62,7 @@
     .content-info{
         display: none;
     }
+    .footer{
+      height: 180xp;
+    }
 }
