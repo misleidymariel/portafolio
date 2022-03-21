@@ -31,17 +31,6 @@ body{
     flex-direction: column;
     justify-content: space-evenly; 
 }    
-.button-primary {
-    border-radius: 40px;
-    background-color:#48daf6;
-    color: white;
-    width: 120px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 
 #navegador{
     width: 100%;
@@ -49,7 +38,9 @@ body{
     background-color: #ffffff;
     position: fixed;
     top: 0px;
-     box-shadow: 1px 4px 5px -1px #48d9f6fd
+    box-shadow: 1px 4px 5px -1px #48d9f6fd;
+    z-index: 9999px;
+    
 }
 
 #navegador  ul  {
@@ -64,11 +55,11 @@ body{
 #navegador  ul li a {
     text-decoration: none;
     padding: 15px 15px;
-    color: black;
+    color:#48daf6;
 }
 
 #navegador li a:hover{
-    color: #48daf6;
+    color: #000000;
     transition-duration: 0.2s;
 }
 
@@ -82,6 +73,26 @@ body{
     color: #48daf6;
     margin: 10px;
 }
+
+.button-contacto{
+    width: 120px;
+    height: 40px;
+    background-color:#48daf6;
+    color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-contacto a:hover{
+  transition-duration: 0.2s;
+}
+
+.btn_primary{
+    color: white;
+}
+
+
 
 /*section acerca */
 
@@ -116,7 +127,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:center;
-
     transition-duration: 0.2s;
     
 }
@@ -152,11 +162,12 @@ img{
 .items :hover{
     transform: scale( 1.22, 1.22);
 }
+
 .quote{
     width: 100%;
     height: 100%;
-    background-color: #48d9f6fa;
-    color: black;
+    background-color: #000000fa;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -201,7 +212,7 @@ img{
 @media screen and (max-width: 725px){
     .contenedorportada {
         flex-direction: column-reverse;
-        margin-top: 30px;
+        margin-top: 70px;
     }
     .titulo{ 
         width: 100%;
@@ -212,6 +223,7 @@ img{
     .name-title {
         font-size: 30px;
         text-align: center;
+        margin-top: 40px;
     }
     .fotoperfil {
         padding: 20px;

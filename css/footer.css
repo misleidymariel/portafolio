@@ -2,18 +2,24 @@
 
 .footer{
     padding: 40px 0;
-    background-color:  #48daf6;;
+    background-color:#48daf6;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .footer .social{
     text-align: center;
     padding-bottom: 24px;
-    color:rgb(255, 255, 255);
+  
 }
 
 .social a{
     font-size: 24px;
     color: inherit;
-    border: 1px solid rgb(255, 255, 255);
+    background-color:  rgb(255, 255, 255);
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -21,11 +27,13 @@
     text-align: center;
     border-radius: 50%;
     margin: 0 8px;
-    opacity: 0.75;
+    color:#48daf6;
 }
 .social a:hover{
     opacity: 1.0;
-    color: rgb(255, 255, 255);
+    color:#fcfcfc;
+    transition: 0.2s;
+    background: none;
 }
 
 .footer ul{
@@ -39,7 +47,7 @@
 }
 .footer ul a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .footer ul li{
     display: inline-block;
@@ -47,7 +55,7 @@
 
 }
 .footer ul li a:hover{
-    color:#ffffff;
+    color: #000000;
     transition-duration: 0.2s;
 }
 
@@ -55,7 +63,7 @@
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
-    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255);
 }
 
 @media (max-width: 725px){

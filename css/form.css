@@ -11,7 +11,7 @@
 .formulario{
     box-sizing: border-box;
     background-color:#f6f6f6;;
-    padding: 90px 150px;
+    padding: 50px 150px;
 }
 .subtitulos-items{
   margin-top: 0;
@@ -19,7 +19,7 @@
 .brand{
     text-align: center;
     font-size: 38px;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .brand span{
@@ -28,12 +28,11 @@
 
 .content-info{
     width: 40%;
-    height: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    padding: 20px;
-    margin-top: 0;
+    justify-content: center;
+    margin: 20px 10px 20px 0;
 
 }
 .content-form{
@@ -61,11 +60,20 @@
     padding: 0;
 }
 .content-info ul li i{
-    padding: 7px;
-    margin: 0 5px 0 0;
+   
+    font-size: 20px;
+    color: inherit;
+    background-color: #48daf6;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 8px 8px;
+    color: #ffffff;
 }
-.content-info ul li{
-    padding: o 10px 0 0;
+.content-info ul li {
+    padding-top: 25px;
 }
 .content-form form {
     display: grid;
