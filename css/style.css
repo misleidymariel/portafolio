@@ -9,12 +9,12 @@ body{
 
 .contenedorportada{
     width: 100%;
-    height: 450px;
+    height: 100%;
     display: flex;
     align-content: center;
     justify-content: space-evenly;
     margin-top: 220px;
-    margin-bottom: 0;
+    margin-bottom: 150px;
   
 }
 .drawing{
@@ -213,6 +213,7 @@ img{
     .contenedorportada {
         flex-direction: column-reverse;
         margin-top: 70px;
+        margin-bottom: 0;
     }
     .titulo{ 
         width: 100%;

@@ -60,6 +60,7 @@ h4{
 }
 
 @media screen and (max-width: 725px){
+    
     .grid {
         width: 80%;
         height: 100%;
@@ -69,10 +70,12 @@ h4{
         padding: 0;
   
     }
-    .conocimientos{
-        font-size: 20px;
+    
+    .brand{
+        font-size: 30px;
     }
     .portafolio p{
-        font-size: 16px;
+        font-size: 20px;
     }
+
 }
