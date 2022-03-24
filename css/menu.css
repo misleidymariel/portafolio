@@ -88,7 +88,21 @@
 .pruebra{
    text-align: center;
 }
+.form-grupo {
+    margin: 20px 35px 0 0px;  
+}
+.form-grupo input{
+    padding-left: 15px;
+    margin-bottom: 4px;
+}
+.form-grupo label{
+    display: block;
+    margin-bottom: 10px ;
+}
+.invalid{
+    border: 1px solid red;
 
+}
 .content-info h4,
 .content-info ul,
 .content-info p {
@@ -120,30 +134,25 @@
     padding: 10px;
    
 }
-input{
-    width: 100%;
-    height: 15px;
-    background-color: #48daf6;
-    padding-left: 15px;
-    outline: none;
-}
+
 
 .content-form form button,
 .content-form form input,
 .content-form form textarea {
     width: 100%;
     padding: 10px;
-    border: none;
+
     background: none;
-    border-bottom: 0.5px solid rgb(34, 32, 32);
+   
     outline: 10px;
     color: rgb(0, 0, 0);
 }
 
 .content-form form button{
+
     background: #48daf6;
-    color: black;
     border: 0;
+    color: black;
     text-transform: uppercase;
     padding: 10px;
     width: 20%;
@@ -157,6 +166,8 @@ label {
     color: #fff;
     transition: background-color 1s ease-out;
 }
+
+
 
 @media screen and (max-width: 725px){
     section{
