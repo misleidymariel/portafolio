@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../Js/form.js">
+    <link rel="stylesheet" href="../css/menu.css">
+
+  
   
     <script src="https://kit.fontawesome.com/f64101e413.js" crossorigin="anonymous"></script>
 </head>
@@ -15,7 +17,15 @@
 
     <section class="formulario">
         <h1 class="brand" > Contactame <span>US</span> </h1>
-        <div class="content">    
+        <div class="content">  
+            <div class="content-info">
+                <h2 class="subtitulos-items">Estos son mis medios de contacto</h2>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>Buenos Aires</li>  
+                    <li><i class="fas fa-phone"></i> 456 45678</li>  
+                    <li><i class="fas fa-envelope"></i>Misleidy520@gmail.com</li>  
+                </ul>
+            </div>  
             <div class="content-form">
                 <h2 class="">Escribeme</h2>
                     <p  class="pruebra">Me encantaria tener un feedback sobre mi portafolio.</p>
@@ -24,28 +34,28 @@
                             <label>FullName</label>
                             <input class="invalid" type="text" name="fullName"
                             placeholder="First and Last Name" />
-                            <div class="error hide">Name is required</div>
+                            <div class="error-hide hidden">Name is required</div>
                         </div>
                         <div class="form-grupo">
                             <label>Email Adress</label>
                             <input type="text" name="fullName"
                             placeholder="your_email@example.com"/>
-                            <div class="error hide">Email is invalid</div>
+                            <div class="error-hide">Email is invalid</div>
                         </div>
                         <div class="form-grupo">
                             <label>Phone</label>
                             <input type="te" name="phone">
-                            <div class="error hide">Phone is invalid</div>
+                            <div class="error-hide">Phone is invalid</div>
                         </div>
                         <div class="form-grupo">
                             <label>Asunto</label>
                             <input type="text" name="asunto">
-                            <div class="error hide">Asunto is required</div>
+                            <div class="error-hide">Asunto is required</div>
                         </div>
                         <div class="block" class="form-grupo">
                             <label>Mensaje</label>
                             <textarea name="mensaje" rows="2"></textarea>
-                            <div class="error hide">Message is required</div>
+                            <div class="error-hide">Message is required</div>
                         </div>
                         <div class="block">
                             <button type="submit">

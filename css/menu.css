@@ -103,6 +103,13 @@
     border: 1px solid red;
 
 }
+.error-hide {
+    color: red;
+
+}
+.hidden{
+    display: none;
+}
 .content-info h4,
 .content-info ul,
 .content-info p {
@@ -154,8 +161,11 @@
     border: 0;
     color: black;
     text-transform: uppercase;
+    transition: all 0.5s;
     padding: 10px;
     width: 20%;
+    cursor: pointer;
+    border-radius: 10px;
 }
 label {
     color: rgb(0, 0, 0);
@@ -164,7 +174,8 @@ label {
 .content-form form button:focus{
  
     color: #fff;
-    transition: background-color 1s ease-out;
+    
+    
 }
 
 
