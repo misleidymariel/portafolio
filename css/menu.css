@@ -99,17 +99,7 @@
     display: block;
     margin-bottom: 10px ;
 }
-.invalid{
-    border: 1px solid red;
 
-}
-.error-hide {
-    color: red;
-
-}
-.hidden{
-    display: none;
-}
 .content-info h4,
 .content-info ul,
 .content-info p {
