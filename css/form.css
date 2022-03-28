@@ -113,7 +113,7 @@ input{
     border: 0;
     text-transform: uppercase;
     padding: 10px;
-    width: 35%;
+    width: 30%;
     border-radius: 10px;
 }
 label {
@@ -124,8 +124,6 @@ label {
     color: #fff;
     transition: 0.6s;
 }
-
-
 
 
 @media screen and (max-width: 725px){
