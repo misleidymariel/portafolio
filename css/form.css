@@ -11,13 +11,12 @@
 .formulario{
     box-sizing: border-box;
     background-color:#f6f6f6;;
-    padding: 40px 150px;
+    padding: 100px 150px;
 }
 .subtitulos-items{
   margin-top: 0;
 }
 .brand{
-    text-align:center;
     font-size: 30px;
     padding: 0 0px;
     margin-top: 0;

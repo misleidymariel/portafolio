@@ -27,8 +27,8 @@
 .conocimientos{
     width: 100%;
     height: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 120px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
