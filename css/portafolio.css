@@ -5,6 +5,11 @@
     font-size: 80px;
     margin-bottom: 10px;
 }
+.icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-right: 850px;
+}
 .fa-html5 {
     color: #48daf6;
 }  
