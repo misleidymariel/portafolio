@@ -93,12 +93,15 @@ h4{
         padding: 0;
   
     }
-    
+    .icon{
+        margin-right:200px;
+        
+    }
     .brand{
         font-size: 30px;
     }
     .portafolio p{
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }
